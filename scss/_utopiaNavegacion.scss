@@ -1,0 +1,79 @@
+@import "bootstrap-reboot";
+@import "bootstrap";
+@import "bootstrap-grid";
+@import "utopiaVariables";
+
+
+.navegador {
+    @extend .navbar;
+    @extend .navbar-expand-lg;
+    @extend .navbar-dark;
+    @extend .m-0;
+    @extend .p-3;
+    font-family: $fuentePrincipal;
+    color: $blanco;
+    background-color: $violetaPrincipal;
+
+    .navegador__button {
+        @extend .navbar-toggler;
+    }
+
+    .navegador__span {
+        @extend .navbar-toggler-icon;
+    }
+
+    .navegador__container {
+        @extend .collapse;
+        @extend .navbar-collapse;
+
+        .navegador__container__ul{
+            @extend .navbar-nav;
+            @extend .mx-auto;
+            
+            .navegador__container__ul__li{
+                @extend .nav-item;
+                @extend .mx-2;
+
+                @media(max-width: 768px){
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                }
+
+                .navegador__container__ul__li__a{
+                    @extend .p-2;
+                    @extend .rounded;
+                    font-size: 1rem;
+                    color: $blanco;
+                }
+               
+                .navegador__container__ul__li__a:hover{
+                    text-decoration: none;
+                    background-color: $blanco;
+                    color: $violetaPrincipal;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

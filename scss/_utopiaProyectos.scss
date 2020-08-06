@@ -1,0 +1,193 @@
+@import "bootstrap-reboot";
+@import "bootstrap";
+@import "bootstrap-grid";
+@import "utopiaVariables";
+
+
+.divTituloProyectos{
+    @extend .container-sm;
+    @extend .mx-auto;
+    @extend .mt-4;
+    @extend .mb-4;
+    @extend .pb-2;
+    @extend .px-3;  
+    @extend .text-center;
+    @extend .rounded;
+    background-color: $gris;
+
+    .divTituloProyectos__h2{
+        @extend .m-0;
+        @extend .pt-2;
+        @extend .pb-2;
+        @extend .rounded;
+        font-family: $fuentePrincipal;
+        font-weight: bold;
+        font-size: 1.8rem;
+        color: $violetaPrincipal;
+    }
+
+}
+
+.divContenedorProyectos{
+    @extend .container;
+
+    .divContenedorProyectos__firstRow{
+        @extend .row;
+        @extend .align-items-center;
+        @extend .justify-content-around;
+
+        .divContenedorProyectos__firstRow__tarjeta{
+            @extend .col-lg-3;
+            @extend .col-md-8;
+            @extend .col-sm-10;
+            @extend .mt-5;
+            @extend .mx-3;
+            @extend .p-3;
+            @extend .rounded;
+            border: solid $gris 2px;
+
+            @media(min-width: 1024px){
+                height: 600px;
+            }
+
+            @media(min-width: 1440px){
+                height: 510px;
+            }
+
+
+            .divContenedorProyectos__firstRow__tarjeta__divImg{
+                @extend .m-1;
+                @extend .d-flex;
+                @extend .align-items-center;
+                @extend .justify-content-center;
+                height: 90px;
+
+                .divContenedorProyectos__firstRow__tarjeta__divImg__img{
+                    @extend .img-thumbnail;
+                    @extend .p-0;
+                }
+            }
+
+            .divContenedorProyectos__firstRow__tarjeta__divTexto{
+                @extend .container;
+                @extend .mt-2;
+                @extend .p-2;
+                font-family: $fuentePrincipal;
+                border-top: solid $violetaPrincipal 2px;
+
+                .divContenedorProyectos__firstRow__tarjeta__divTexto__h5{
+                    @extend .row;
+                    @extend .mx-auto;
+                    @extend .mt-2;
+                    @extend .mb-2;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                }
+                .divContenedorProyectos__firstRow__tarjeta__divTexto__p{
+                    @extend .row;
+                    @extend .mx-auto;
+                    @extend .mt-2;
+                    @extend .mb-2;
+                    font-size: 1rem;
+                }
+                .divContenedorProyectos__firstRow__tarjeta__divTexto__button{
+                    @extend .flex-row;
+                    @extend .d-flex;
+                    @extend .ml-auto;
+                    @extend .btn;
+                    @extend .btn-secondary;
+                    @extend .btn-sm;
+
+                    .divContenedorProyecrtos__firstRow__tarjeta__divTexto__button__link{
+                        @extend .text-white;
+                    }
+                }
+            }
+        }
+    }
+
+    .divContenedorProyectos__secondRow{
+        @extend .row;
+        @extend .align-items-center;
+        @extend .justify-content-around;
+
+        .divContenedorProyectos__secondRow__tarjeta{
+            @extend .col-lg-4;
+            @extend .col-md-8;
+            @extend .col-sm-8;
+            @extend .mt-5;
+            @extend .mx-3;
+            @extend .p-3;
+            @extend .rounded;
+            border: solid $gris 2px;   
+
+            @media(min-width: 1024px){
+                height: 680px;
+            }
+
+            @media(min-width: 1440px){
+                height: 610px;
+            }
+
+            .divContenedorProyectos__secondRow__tarjeta__divImg{
+                @extend .m-1;
+                @extend .d-flex;
+                @extend .align-items-center;
+                @extend .justify-content-center;
+
+                .divContenedorProyectos__secondRow__tarjeta__divImg__img{
+                    @extend .img-thumbnail;
+                    @extend .p-0;
+                }
+            }
+            
+            .divContenedorProyectos__secondRow__tarjeta__divTexto{
+                @extend .container;
+                @extend .mt-2;
+                @extend .p-2;
+                font-family: $fuentePrincipal;
+                border-top: solid $violetaPrincipal 2px;
+
+                .divContenedorProyectos__secondRow__tarjeta__divTexto__h5{
+                    @extend .row;
+                    @extend .mx-auto;
+                    @extend .mt-2;
+                    @extend .mb-2;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                }
+                .divContenedorProyectos__secondRow__tarjeta__divTexto__p{
+                    @extend .row;
+                    @extend .mx-auto;
+                    @extend .mt-2;
+                    @extend .mb-2;
+                    font-size: 1rem;
+                }
+                .divContenedorProyectos__secondRow__tarjeta__divTexto__button{
+                    @extend .flex-row;
+                    @extend .d-flex;
+                    @extend .ml-auto;
+                    @extend .btn;
+                    @extend .btn-secondary;
+                    @extend .btn-sm;
+
+                    .divContenedorProyecrtos__secondRow__tarjeta__divTexto__button__link{
+                        @extend .text-white;
+                    }
+                }
+            }       
+        }
+    }
+}
+
+.divContenedorProyectos__firstRow__tarjeta:hover{
+    -webkit-box-shadow: 0 15px 20px #777;
+    -moz-box-shadow: 0 15px 20px #777;
+    box-shadow: 0 15px 20px #777;
+}
+
+.divContenedorProyectos__secondRow__tarjeta:hover{
+    -webkit-box-shadow: 0 15px 20px #777;
+    -moz-box-shadow: 0 15px 20px #777;
+    box-shadow: 0 15px 20px #777;
+}

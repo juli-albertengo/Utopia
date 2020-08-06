@@ -1,0 +1,93 @@
+@import "bootstrap-reboot";
+@import "bootstrap";
+@import "bootstrap-grid";
+@import "utopiaVariables";
+
+.divInvitacionComunidades{
+    @extend .container-sm;
+    @extend .mx-auto;
+    @extend .mt-4;      
+    @extend .mb-4;
+    @extend .pb-2;
+    @extend .px-3;  
+    @extend .text-center;
+    @extend .rounded;
+
+    .divInvitacionComunidades__h4{
+        @extend .m-0;
+        @extend .pt-2;
+        @extend .pb-2;
+        @extend .rounded;
+        font-family: $fuentePrincipal;
+        font-weight: bold;
+        font-size: 1.2rem;
+        background-color: $gris;
+
+        .divInvitacionComunidades__h4__link{
+            @extend .text-dark;
+            text-decoration: underline;
+        }
+    }
+}
+
+.footer{
+    @extend .container-fluid;
+    @extend .m-0;
+    @extend .p-3;
+    background-color: $violetaPrincipal;
+
+    .footer__divPregunta{
+        @extend .col-lg-4;
+        @extend .mx-auto;
+        @extend .mb-2;
+        @extend .justify-content-center;
+        @extend .text-center;
+        @extend .rounded;   
+        background-color: $blanco;
+
+        .footer__divPregunta__p{
+            @extend .m-0;
+            @extend .p-1;
+            font-family: $fuentePrincipal;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    }
+
+    .footer__divForm{
+        .footer__divForm__formRow{
+            @extend .row;
+            @extend .justify-content-center;
+
+            .footer__divForm__formRow__col{
+                @extend .col-auto;
+
+                .footer__divForm__formRow__col__input{
+                    @extend .mt-2;
+                    @extend .form-control;
+                    @extend .form-control-sm;
+                }
+            }
+
+        }
+
+        .footer__divForm__formRow__button{
+            @extend .mt-2;
+            @extend .btn;
+            @extend .btn-secondary;
+            @extend .btn-sm;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

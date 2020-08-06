@@ -1,0 +1,148 @@
+@import "bootstrap-reboot";
+@import "bootstrap";
+@import "bootstrap-grid";
+@import "utopiaVariables";
+
+
+.divPresentacion{
+    @extend .container;
+    @extend .row;
+    @extend .mx-auto;
+    @extend .mt-5;
+
+    .divPresentacion__divInfo{
+        @extend .col-lg-6;
+        @extend .col-md-12;
+        @extend .col-sm-12;
+        @extend .text-center;
+
+        .divPresentacion__divInfo__ImgPrincipal__img{
+            @extend .img-fluid;
+        }
+
+        .divPresentacion__divInfo__h5{
+            @extend .mt-4;
+            font-family: $fuentePrincipal; 
+            font-size: 1.2rem;
+
+            .divPresentacion__divInfo__h5__span{
+                color: $violetaPrincipal;
+            }
+        }
+
+        .divPresentacion__divInfo__button{
+            @extend .mt-4;
+            @extend .mb-4;
+            @extend .p-2;
+            background-color: $violetaPrincipal;
+            border: 0px;
+
+            .divPresentacion__divInfo__button__link{
+                @extend .text-white;
+                @extend .p-3;
+                font-size: 1rem;
+            }
+        }   
+    }
+
+    .divPresentacion__divGif{
+        @extend .col-lg-6;
+        @extend .col-md-12;
+        @extend .col-sm-6;
+        @extend .text-center;
+
+        .divPresentacion__divGif__gif{
+            @extend .img-fluid;
+        }
+    }
+
+}
+
+.containerBrechas{
+    @extend.container;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    @extend .px-4;
+
+    .containerBrechas__divBrecha{
+        @extend .row;
+        @extend .align-items-center;
+        @extend .justify-content-around;
+        @extend .mx-4;
+        margin-bottom: 60px;
+    
+        .containerBrechas__divBrecha__Texto{
+            @extend .col-lg-6;
+            @extend .col-md-10;
+            @extend .col-sm-10;
+            @extend .m-0;
+            font-family: $fuentePrincipal;
+
+            .containerBrechas__divBrecha__Texto__h3{
+                @extend .mb-3;
+                font-size: 2.5rem;
+                font-weight: bold;
+            }
+
+            .containerBrechas__divBrecha__Texto__h3--right{
+                @extend .mb-3;
+                font-size: 2.2rem;
+                font-weight: bold;   
+                @extend .text-right; 
+            }
+
+            .containerBrechas__divBrecha__Texto__p{
+                @extend .m-0;
+                @extend .p-1;
+                @extend .text-left;
+                font-size: 1.2rem;
+            }
+            .containerBrechas__divBrecha__Texto__p--right{
+                @extend .m-0;
+                @extend .p-1;
+                @extend .text-right;
+                font-size: 1.2rem;
+            }
+        }
+       
+       .containerBrechas__divBrecha__divDato{
+            @extend .col-lg-4;
+            @extend .col-md-10;
+            @extend .col-sm-10;
+            @extend .m-0;
+            @extend .p-0;
+            @extend .d-flex;
+            @extend .justify-content-center;
+
+            .containerBrechas__divBrecha__divDato__divImg{
+                @extend .mt-3;
+                @extend .mb-3;
+
+                .containerBrechas__divBrecha__divDato__divImg__p{
+                    @extend .mt-1;
+                    @extend .mb-0;
+                    @extend .text-center;
+                    font-family: $fuentePrincipal;
+                    font-size: 1rem;
+                    color: $violetaPrincipal;
+                }
+                
+                .containerBrechas__divBrecha__divDato__divImg__img{
+                    @extend .m-0;
+                    @extend .p-0;
+                    @extend .img-fluid;
+                }
+            }
+
+        }
+    }
+    
+}
+
+@media(max-width: 768px){
+    #segundo{
+        order: 2;
+    }
+}
+
+

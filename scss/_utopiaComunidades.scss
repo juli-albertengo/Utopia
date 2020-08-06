@@ -1,0 +1,129 @@
+@import "bootstrap-reboot";
+@import "bootstrap";
+@import "bootstrap-grid";
+@import "utopiaVariables";
+
+.divTituloComunidades{
+    @extend .container-sm;
+    @extend .mx-auto;
+    @extend .mt-4;
+    @extend .mb-4;
+    @extend .pb-2;
+    @extend .px-3;  
+    @extend .text-center;
+    @extend .rounded;
+    background-color: $gris;
+
+    .divTituloComunidades__h2{
+        @extend .m-0;
+        @extend .pt-2;
+        @extend .pb-2;
+        @extend .rounded;
+        font-family: $fuentePrincipal;
+        font-weight: bold;
+        font-size: 1.8rem;
+        color: $violetaPrincipal;
+    }
+}
+
+.divContenedorComunidades{
+    @extend .container;
+
+    .divContenedorComunidades__row{
+        @extend .row;
+        @extend .align-items-center;
+        @extend .justify-content-around;
+
+        .divContenedorComunidades__row__tarjeta{
+            @extend .col-lg-3;
+            @extend .col-md-8;
+            @extend .col-sm-10;
+            @extend .mt-5;
+            @extend .mx-3;
+            @extend .p-3;
+            @extend .rounded;
+            border: solid $gris 2px;
+
+            @media(min-width: 1024px){
+                height: 370px;
+            }
+            
+            .divContenedorComunidades__row__tarjeta__divImg{
+                @extend .m-1;
+                @extend .d-flex;
+                @extend .align-items-center;
+                @extend .justify-content-center;
+                height: 200px;
+                
+                .divContenedorComunidades__row__tarjeta__divImg__img{
+                    @extend .img-thumbnail;
+                    @extend .p-0;
+                }
+            }
+
+            .divContenedorComunidades__row__tarjeta__divTexto{
+                @extend .p-0;
+                @extend .text-center;
+                border-top: solid $violetaPrincipal 2px;
+
+                .divContenedorComunidades__row__tarjeta__divTexto__h5{
+                    @extend .mt-3;
+                    @extend .mb-3;
+                    font-family: $fuentePrincipal;
+                    font-size: 1.2;
+                    font-weight: bold;
+                }
+                
+                .divContenedorComunidades__row__tarjeta__divTexto__button{
+                    @extend .flex-row;
+                    @extend .d-flex;
+                    @extend .ml-auto;
+                    @extend .btn;
+                    @extend .btn-secondary;
+                    @extend .btn-sm;
+
+                    .divContenedorComunidades__row__tarjeta__divTexto__button__link{
+                        @extend .text-white;
+                        font-family: $fuentePrincipal;
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.divInvitacionSumar{
+    @extend .container-sm;
+    @extend .mx-auto;
+    @extend .mt-5;      
+    @extend .mb-4;
+    @extend .pb-2;
+    @extend .px-3;  
+    @extend .text-center;
+    @extend .rounded;
+
+
+    .divInvitacionSumar__h5{
+        @extend .m-0;
+        @extend .pt-2;
+        @extend .pb-2;
+        @extend .px-1;
+        @extend .rounded;
+        font-family: $fuentePrincipal;
+        font-weight: bold;
+        font-size: 1.2rem;
+        background-color: $gris;
+
+        .divInvitacionSumar__h5__link{
+            @extend .text-dark;
+            text-decoration: underline;
+        }
+    }
+}
+
+.divContenedorComunidades__row__tarjeta:hover{
+    -webkit-box-shadow: 0 15px 20px #777;
+    -moz-box-shadow: 0 15px 20px #777;
+    box-shadow: 0 15px 20px #777;
+}

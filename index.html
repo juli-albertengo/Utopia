@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Utopia: Inicio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Una plataforma que reune proyectos, iniciativas, ONGs y comunidades que tienen como misión reducir la brecha digital y la brecha de género en la industria de la tecnología.">
+    <meta name="keywords" content="ONG comunidades tecnologia genero brecha-digital">
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navegador">
+            <button class="navegador__button" type="button" data-toggle="collapse" data-target="#collapse-target"
+                aria-controls="collapse-target" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navegador__span"></span>
+            </button>
+            <div class="navegador__container" id="collapse-target">
+                <ul class="navegador__container__ul">
+                    <li class="navegador__container__ul__li">
+                        <a class="navegador__container__ul__li__a" href="index.html">Inicio</a>
+                    </li>
+                    <li class="navegador__container__ul__li">
+                        <a class="navegador__container__ul__li__a" href="comunidades.html">Comunidades</a>
+                    </li>
+                    <li class="navegador__container__ul__li">
+                        <a class="navegador__container__ul__li__a" href="proyectos.html">Proyectos</a>
+                    </li>
+                    <li class="navegador__container__ul__li">
+                        <a class="navegador__container__ul__li__a" href="sumate.html">Sumate</a>
+                    </li>
+                    <li class="navegador__container__ul__li">
+                        <a class="navegador__container__ul__li__a" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="divPresentacion">
+            <div class="divPresentacion__divInfo">
+                <div class="divPresentacion__divInfo__ImgPrincipal">
+                    <img class="divPresentacion__divInfo__ImgPrincipal__img" src="img/utopia-grande.png" alt="Utopia">
+                </div>
+                <h5 class="divPresentacion__divInfo__h5">Una plataforma que reune proyectos, iniciativas, ONGs y comunidades que
+                    tienen
+                    como
+                    misión <strong class="divPresentacion__divInfo__h5__span">reducir la brecha digital y la brecha de
+                        género</strong> en
+                    la industria de la tecnología.
+                </h5>
+                <button class="divPresentacion__divInfo__button"><a class="divPresentacion__divInfo__button__link"
+                        href="comunidades.html">Conocé las comunidades</a></button>
+            </div>
+            <div class="divPresentacion__divGif">
+                <img class="divPresentacion__divGif__gif" src="img/animation.gif">
+            </div>
+        </div>
+
+
+        <div class="containerBrechas">
+            <div class="containerBrechas__divBrecha">
+                <div class="containerBrechas__divBrecha__Texto">
+                    <h3 class="containerBrechas__divBrecha__Texto__h3">¿Qué es la brecha digital?</h3>
+                    <p class="containerBrechas__divBrecha__Texto__p">La brecha digital refiere a la desigualdad en el
+                        acceso,
+                        comprensión y utilización
+                        de las nuevas tecnologías.</p>
+                </div>
+                <div class="containerBrechas__divBrecha__divDato">
+                    <div class="containerBrechas__divBrecha__divDato__divImg">
+                        <img class="containerBrechas__divBrecha__divDato__divImg__img" src="img/dato-brecha.png" />
+                        <p class="containerBrechas__divBrecha__divDato__divImg__p">(Informe INDEC Vol. 4, n° 83)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="containerBrechas__divBrecha">
+                <div class="containerBrechas__divBrecha__divDato" id="segundo">
+                    <div class="containerBrechas__divBrecha__divDato__divImg">
+                        <img class="containerBrechas__divBrecha__divDato__divImg__img" src="img/dato-genero.png" />
+                        <p class="containerBrechas__divBrecha__divDato__divImg__p">(Equals, 2018)</p>
+                    </div>
+                </div>
+                <div class="containerBrechas__divBrecha__Texto">
+                    <h3 class="containerBrechas__divBrecha__Texto__h3--right">¿Qué es la brecha de género?</h3>
+                    <p class="containerBrechas__divBrecha__Texto__p--right">La brecha de género refiere a la menor
+                        participación de
+                        mujeres y
+                        personas de género no binario en la industria tecnológica, sobre todo en los puestos de
+                        liderazgo.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__divPregunta">
+                <p class="footer__divPregunta__p">¿Querés subscribirte a nuestro Newsletter?</p>
+            </div>
+            <form class="footer__divForm" action="ejemplo.php" method="POST">
+                <div class="footer__divForm__formRow">
+                    <div class="footer__divForm__formRow__col">
+                        <label class="sr-only" for="nombre">Name</label>
+                        <input class="footer__divForm__formRow__col__input" type="text" name="Nombre" id="nombre"
+                            placeholder="Nombre" />
+                    </div>
+                    <div class="footer__divForm__formRow__col">
+                        <label class="sr-only" for="mail">Name</label>
+                        <input class="footer__divForm__formRow__col__input" type="email" name="correo" id="mail"
+                            placeholder="Mail" />
+                    </div>
+                </div>
+                <div class="footer__divForm__formRow">
+                    <button class="footer__divForm__formRow__button">Suscribirse</button>
+                </div>
+            </form>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

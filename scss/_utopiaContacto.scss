@@ -1,0 +1,49 @@
+@import "bootstrap-reboot";
+@import "bootstrap";
+@import "bootstrap-grid";
+@import "utopiaVariables";
+
+.divPrincipalContacto{
+    @extend .container;
+    @extend .mt-4;
+    @extend .mb-4;
+    @extend .px-3;
+    @extend .rounded; 
+
+    .divPrincipalContacto__divTitulo{
+        @extend .row;
+        @extend .col-lg-6;
+        @extend .mx-auto;
+        @extend .mt-3;
+        @extend .mb-4;
+        @extend .justify-content-center;
+        @extend .rounded;
+        background-color: $gris;
+
+        .divPrincipalContacto__divTitulo__h2{
+            @extend .m-0;
+            @extend .p-2;
+            font-family: $fuentePrincipal;
+            font-size: 1.7rem;
+            font-weight: bold;
+            color: $violetaPrincipal;
+        }
+
+    }
+
+    .divPrincipalContacto__formContacto{
+        @extend .col-lg-9;
+        @extend .col-md-9;
+        @extend .col-sm-12;
+        @extend .mx-auto;
+        @extend .mb-3;
+        @extend .p-3;
+        @extend .rounded;
+
+        .sombra:focus{
+            border-color: $violetaPrincipal;    
+            box-shadow: 5px 5px 5px 0px $violetaPrincipal;
+            outline: 0 none;
+        }   
+    } 
+}

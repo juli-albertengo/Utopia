@@ -1,0 +1,127 @@
+@import "bootstrap-reboot";
+@import "bootstrap";
+@import "bootstrap-grid";
+@import "utopiaVariables";
+
+.divPrincipalSumate{
+    @extend .container;
+    @extend .mt-4;
+    @extend .mb-4;
+    @extend .px-3; 
+    @extend .rounded; 
+
+        .divPrincipalSumate__divPregunta{
+            @extend .row;
+            @extend .col-lg-6;
+            @extend .mx-auto;
+            @extend .mt-3;
+            @extend .mb-4;
+            @extend .justify-content-center;
+            @extend .rounded;
+            background-color: $gris;
+
+            .divPrincipalSumate__divPregunta__h2{
+                @extend .m-0;
+                @extend .p-2;
+                font-family: $fuentePrincipal;
+                font-size: 1.7rem;
+                font-weight: bold;
+                color: $violetaPrincipal;
+            }
+
+        }
+
+        .divPrincipalSumate__FirstP{
+            @extend .row;
+            @extend .mx-auto;
+            @extend .m-2;
+            @extend .p-3;
+            @extend .text-center;
+            @extend .rounded;
+            font-family: $fuentePrincipal;
+            font-size: 1.2rem;
+
+            .divPrincipalSumate__FirstP__p{
+                @extend .m-0;
+                @extend .p-0;
+
+                .divPrincipalSumate__FirstP__p__span{
+                    @extend .px-1;
+                    color: $violetaPrincipal;                        
+                }
+            }
+        }
+
+        .divPrincipalSumate__divContainerFormualrio__form{
+            @extend .mb-3;
+            @extend .p-3;
+            @extend .rounded;
+
+            .sombra:focus{
+                border-color: $violetaPrincipal;    
+                box-shadow: 5px 5px 5px 0px $violetaPrincipal;
+                outline: 0 none;
+            }   
+
+            
+        } 
+}
+
+.divPlataformasVoluntariado{
+    @extend .container;
+    @extend .mt-4;
+    @extend .mb-3;
+    @extend .p-3;
+    @extend .rounded; 
+    background-color: $gris;
+
+    .divPlataformasVoluntariado__divTitulo{
+        @extend .row;
+        @extend .col-lg-6;
+        @extend .mx-auto;
+        @extend .mb-3;
+        @extend .text-center;
+        @extend .justify-content-center;
+        @extend .align-items-center;
+        @extend .rounded;
+        background-color: $blanco;
+
+        .divPlataformasVoluntariado__divTitulo__h3{
+            @extend .m-0;
+            @extend .p-2;
+            font-family: $fuentePrincipal;
+            font-size: 1.7rem;
+            font-weight: bold;
+            color: $violetaPrincipal;
+        }
+    }
+
+    .divPlataformasVoluluntariado__row{
+        @extend .row;
+
+        .divPlataformasVoluluntariado__row__divPlataforma{
+            @extend .col-lg-4;
+            @extend .col-md-4;
+            @extend .col-sm-12;
+            @extend .mx-auto;
+            @extend .p-2;
+            background-color: $blanco;
+
+            .divPlataformasVoluluntariado__row__divPlataforma__h5{
+                @extend .d-flex;
+                @extend .justify-content-center;
+                font-family: $fuentePrincipal;
+                font-size: 1.2rem;
+                color: $violetaPrincipal;
+                font-weight: bold;  
+            }
+
+            .divPlataformasVoluluntariado__row__divPlataforma__p{
+                @extend .m-0;
+                @extend .text-center;
+                font-family: $fuentePrincipal;
+                font-size: 1rem;
+            }
+        }
+    }
+}

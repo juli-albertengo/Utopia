@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Utopia: Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Página de contacto para la plataforma de Utopía">
+    <meta name="keywords" content="ONG comunidades tecnologia genero brecha-digital">
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <header>
+            <nav class="navegador">
+                <button class="navegador__button" type="button" data-toggle="collapse" data-target="#collapse-target"
+                    aria-controls="collapse-target" aria-expanded="false" aria-label="toggle navigation">
+                    <span class="navegador__span"></span>
+                </button>
+                <div class="navegador__container" id="collapse-target">
+                    <ul class="navegador__container__ul">
+                        <li class="navegador__container__ul__li">
+                            <a class="navegador__container__ul__li__a" href="index.html">Inicio</a>
+                        </li>
+                        <li class="navegador__container__ul__li">
+                            <a class="navegador__container__ul__li__a" href="comunidades.html">Comunidades</a>
+                        </li>
+                        <li class="navegador__container__ul__li">
+                            <a class="navegador__container__ul__li__a" href="proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="navegador__container__ul__li">
+                            <a class="navegador__container__ul__li__a" href="sumate.html">Sumate</a>
+                        </li>
+                        <li class="navegador__container__ul__li">
+                            <a class="navegador__container__ul__li__a" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="divPrincipalContacto">
+            <div class="divPrincipalContacto__divTitulo">
+                <h2 class="divPrincipalContacto__divTitulo__h2">Escribinos!</h2>
+            </div>
+            <form action="documentoadondevalainfo.php" method="POST" class="divPrincipalContacto__formContacto">
+                <div class="form-group col-lg-6 mx-auto">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" name="Nombre" id="nombre" class="sombra form-control" />
+                </div>
+                <div class="form-group col-lg-6 mx-auto">
+                    <label for="correo">Mail</label>
+                    <input type="email" name="correo" id="correo" class="sombra form-control" />
+                </div>
+                <div class="form-group col-lg-6 mx-auto">
+                    <label for="Newsletter">¿Querés recibir nuestro Newsletter?</label>
+                    <input id="Newsletter" name="Newsletter" type="checkbox" value="Newsletter" />
+                </div>
+                <div class="form-group col-lg-6 mx-auto">
+                    <label for="asunto">Asunto</label>
+                    <select id="asunto" name="Asunto" class="sombra form-control">
+                        <option value="proyecto">Quiero sumar mi proyecto</option>
+                        <option value="voluntario">Quiero ser voluntarix de Utopía</option>
+                        <option value="otros">Otro</option>
+                    </select>
+                </div>
+                <div class="form-group col-lg-6 mx-auto">
+                    <label for="comentarios">Comentarios:</label>
+                    <textarea class="sombra form-control" id="comentarios"></textarea>
+                </div>
+                <div class="form-row justify-content-center">
+                    <button type="button" value="submit" class="btn btn-secondary m-2" data-toggle="modal"
+                        data-target="#gracias-contacto">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <div class="footer__divPregunta">
+                    <p class="footer__divPregunta__p">¿Querés subscribirte a nuestro Newsletter?</p>
+                </div>
+                <form class="footer__divForm" action="ejemplo.php" method="POST">
+                    <div class="footer__divForm__formRow">
+                        <div class="footer__divForm__formRow__col">
+                            <label class="sr-only" for="nombre">Name</label>
+                            <input class="footer__divForm__formRow__col__input" type="text" name="Nombre" id="nombre"
+                                placeholder="Nombre" />
+                        </div>
+                        <div class="footer__divForm__formRow__col">
+                            <label class="sr-only" for="mail">Name</label>
+                            <input class="footer__divForm__formRow__col__input" type="email" name="correo" id="mail"
+                                placeholder="Mail" />
+                        </div>
+                    </div>
+                    <div class="footer__divForm__formRow">
+                        <button class="footer__divForm__formRow__button">Suscribirse</button>
+                    </div>
+                </form>
+            </div>
+        </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="gracias-contacto" tabindex="-1" role="dialog" aria-labelledby="gracias-contacto"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Gracias por tu mensaje</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Pronto nos pondremos en contacto!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary btn-sm">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+</body>
+</html>
