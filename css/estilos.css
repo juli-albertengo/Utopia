@@ -649,11 +649,11 @@ mark,
   .blockquote-footer::before {
     content: "\2014\00A0"; }
 
-.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img {
+.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
   max-width: 100%;
   height: auto; }
 
-.img-thumbnail, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
+.img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -10987,11 +10987,11 @@ mark,
   .blockquote-footer::before {
     content: "\2014\00A0"; }
 
-.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img {
+.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
   max-width: 100%;
   height: auto; }
 
-.img-thumbnail, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
+.img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -21378,11 +21378,11 @@ mark,
   .blockquote-footer::before {
     content: "\2014\00A0"; }
 
-.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img {
+.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
   max-width: 100%;
   height: auto; }
 
-.img-thumbnail, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
+.img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -31811,11 +31811,11 @@ mark,
   .blockquote-footer::before {
     content: "\2014\00A0"; }
 
-.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img {
+.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
   max-width: 100%;
   height: auto; }
 
-.img-thumbnail, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
+.img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -42295,11 +42295,11 @@ mark,
   .blockquote-footer::before {
     content: "\2014\00A0"; }
 
-.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img {
+.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
   max-width: 100%;
   height: auto; }
 
-.img-thumbnail, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
+.img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -52816,11 +52816,11 @@ mark,
   .blockquote-footer::before {
     content: "\2014\00A0"; }
 
-.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img {
+.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
   max-width: 100%;
   height: auto; }
 
-.img-thumbnail, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
+.img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -63388,11 +63388,11 @@ mark,
   .blockquote-footer::before {
     content: "\2014\00A0"; }
 
-.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img {
+.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
   max-width: 100%;
   height: auto; }
 
-.img-thumbnail, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
+.img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -73986,11 +73986,11 @@ mark,
   .blockquote-footer::before {
     content: "\2014\00A0"; }
 
-.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img {
+.img-fluid, .divPresentacion .divPresentacion__divInfo .divPresentacion__divInfo__ImgPrincipal__img, .divPresentacion .divPresentacion__divGif .divPresentacion__divGif__gif, .containerBrechas .containerBrechas__divBrecha .containerBrechas__divBrecha__divDato .containerBrechas__divBrecha__divDato__divImg .containerBrechas__divBrecha__divDato__divImg__img, .divContenedorComunidades .divContenedorComunidades__row .divContenedorComunidades__row__tarjeta .divContenedorComunidades__row__tarjeta__divImg .divContenedorComunidades__row__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__firstRow .divContenedorProyectos__firstRow__tarjeta .divContenedorProyectos__firstRow__tarjeta__divImg .divContenedorProyectos__firstRow__tarjeta__divImg__img, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
   max-width: 100%;
   height: auto; }
 
-.img-thumbnail, .divContenedorProyectos .divContenedorProyectos__secondRow .divContenedorProyectos__secondRow__tarjeta .divContenedorProyectos__secondRow__tarjeta__divImg .divContenedorProyectos__secondRow__tarjeta__divImg__img {
+.img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
