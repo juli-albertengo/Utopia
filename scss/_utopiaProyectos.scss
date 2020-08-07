@@ -63,7 +63,7 @@
                 height: 90px;
 
                 .divContenedorProyectos__firstRow__tarjeta__divImg__img{
-                    @extend .img-thumbnail;
+                    @extend .img-fluid;
                     @extend .p-0;
                 }
             }

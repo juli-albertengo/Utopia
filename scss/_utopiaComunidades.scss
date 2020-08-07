@@ -56,7 +56,7 @@
                 height: 200px;
                 
                 .divContenedorComunidades__row__tarjeta__divImg__img{
-                    @extend .img-thumbnail;
+                    @extend .img-fluid;
                     @extend .p-0;
                 }
             }
