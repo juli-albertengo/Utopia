@@ -47,7 +47,7 @@
 
                 .divPrincipalSumate__FirstP__p__span{
                     @extend .px-1;
-                    color: $violetaPrincipal;                        
+                    color: $naranja;                        
                 }
             }
         }
@@ -63,6 +63,13 @@
                 outline: 0 none;
             }   
 
+            #botonEnviar{
+                @extend .p-2;
+                @extend .rounded;
+                background-color: $naranja;
+                border: 0px;
+                color: white;
+            }
             
         } 
 }

@@ -7,14 +7,15 @@
 .divPresentacion{
     @extend .container;
     @extend .row;
+    @extend .justify-content-center;
     @extend .mx-auto;
     @extend .mt-5;
 
     .divPresentacion__divInfo{
-        @extend .col-lg-6;
+        @extend .col-lg-5;
         @extend .col-md-12;
         @extend .col-sm-12;
-        @extend .text-center;
+        @extend .text-left;
 
         .divPresentacion__divInfo__ImgPrincipal__img{
             @extend .img-fluid;
@@ -34,19 +35,18 @@
             @extend .mt-4;
             @extend .mb-4;
             @extend .p-2;
-            background-color: $violetaPrincipal;
+            background-color: $naranja;
             border: 0px;
 
             .divPresentacion__divInfo__button__link{
                 @extend .text-white;
-                @extend .p-3;
                 font-size: 1rem;
             }
         }   
     }
 
     .divPresentacion__divGif{
-        @extend .col-lg-6;
+        @extend .col-lg-5;
         @extend .col-md-12;
         @extend .col-sm-6;
         @extend .text-center;

@@ -24,8 +24,8 @@
         background-color: $gris;
 
         .divInvitacionComunidades__h4__link{
-            @extend .text-dark;
             text-decoration: underline;
+            color: $naranja;
         }
     }
 }
@@ -73,13 +73,15 @@
 
         .footer__divForm__formRow__button{
             @extend .mt-2;
-            @extend .btn;
-            @extend .btn-secondary;
-            @extend .btn-sm;
+            @extend .p-2;
+            @extend .rounded;
+            font-size: 1rem;
+            border: 0px;
+            background-color: gray;
+            color: white;
         }
     }
 }
-
 
 
 

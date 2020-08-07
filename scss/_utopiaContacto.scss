@@ -44,6 +44,14 @@
             border-color: $violetaPrincipal;    
             box-shadow: 5px 5px 5px 0px $violetaPrincipal;
             outline: 0 none;
-        }   
+        }
+        
+        #botonEnviarContacto{
+            @extend .p-2;
+            @extend .rounded;
+            background-color: $naranja;
+            border: 0px;
+            color: white;
+        }
     } 
 }
