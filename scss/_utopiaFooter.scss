@@ -81,6 +81,27 @@
             color: white;
         }
     }
+
+    .footer__divCredito{
+        @extend .col-lg-4;
+        @extend .mx-auto;
+        @extend .my-2;
+        @extend .justify-content-center;
+        @extend .text-center;
+
+        .footer__divCredito__p{
+            @extend .m-0;
+            @extend .p-1;
+            font-family: $fuentePrincipal;
+            font-size: 1rem;
+            color: $blanco;
+
+            .footer__divCredito__p__a{
+                color: $blanco;
+                text-decoration: underline;
+            }
+        }
+    }
 }
 
 
