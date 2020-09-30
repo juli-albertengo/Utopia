@@ -148,7 +148,7 @@
                     </div>
                 </div>
                 <div class="footer__divForm__formRow">
-                    <button class="footer__divForm__formRow__button">Suscribirse</button>
+                    <button data-target="#gracias-newsletter" data-toggle="modal" id="botonNewsletter" type='button' value='submit' class="footer__divForm__formRow__button">Suscribirse</button>
                 </div>
             </form>
             <div class="footer__divCredito">
@@ -156,6 +156,26 @@
             </div>
         </div>
     </footer>
+
+    <!--Modal para el Newsletter-->
+    <div class="modal fade" id="gracias-newsletter" tabindex="-1" role="dialog" aria-labelledby="gracias-newsletter"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Gracias por sumarte al Newsletter</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Pronto nos pondremos en contacto!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-sm">Aceptar</button>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
